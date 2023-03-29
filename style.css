@@ -1,0 +1,260 @@
+.headermenu{
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo{
+    position: relative;
+    left:100px;
+}
+
+ul.nav{
+    position: relative;
+    left: 50%;
+    padding-bottom: 15px;
+    list-style-type: none;
+
+
+}
+ul.nav li {
+    display: inline-block;
+    padding-right: 20px;
+    margin-bottom: auto;
+    margin-top: 20px;
+
+}
+.line{
+    text-decoration: underline;
+    text-decoration-color:  red;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+
+.first{
+    background-image: url("images/slika1.jpg");
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.first::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+
+}
+
+.first h1{
+    display: block;
+    width: fit-content;
+    font-size: 50px;
+    position: relative;
+    color: red;
+
+}
+.first h3{
+    position: relative;
+
+    display: block;
+    width: fit-content;
+    font-size: 20px;
+    color: black;
+}
+
+.first .button{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+
+.second{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top:20px;
+}
+
+
+.second .picture1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+
+}
+
+.second .picture2{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.second .picture3{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+
+.second .picture4{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+
+.third .section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+
+
+.third{
+    background-image: url("images/slika2.jpg");
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    justify-content: left;
+}
+
+
+.third::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+
+}
+
+.third h1{
+    display: block;
+    width: fit-content;
+    font-size: 50px;
+    position: center;
+    color: red;
+
+
+}
+.third h3{
+    position: relative;
+    display: block;
+    width: fit-content;
+    font-size: 20px;
+    color: black;
+
+}
+
+.third .button2{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 70px;
+    margin-bottom: 20px;
+    margin-top:20px;
+
+}
+
+.pictures .clients{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.pictures .coaches{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+ .pictures .awards{
+     display: flex;
+     flex-direction: column;
+     width: 25%;
+ }
+.pictures .groups{
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+  }
+
+
+.footertext{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    left: 100px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+
+.footertext .logo{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    left: 40px;
+
+}
+
+.footertext .adress{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.footertext .get{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.boja1{
+    color: red;
+}
+
+.boja2{
+    color: red;
+}
